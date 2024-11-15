@@ -30,7 +30,7 @@
     "mcu": "same51j19a",
     "system": "samd",
     "usb_product": "Adafruit Feather M4 CAN",
-    "variant": "feather_m4_can"
+    "variant": "smt_test_00"
   },
   "debug": {
     "jlink_device": "ATSAME51J19",
