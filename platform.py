@@ -14,12 +14,12 @@
 
 import sys
 
-from platformio.public import PlatformBase
+from platformio.public import PlatformBase # type: ignore
 
 IS_WINDOWS = sys.platform.startswith("win")
 
 
-class AtmelsamPlatform(PlatformBase):
+class SpacemotioneryPlatform(PlatformBase):
     def configure_default_packages(self, variables, targets):
         if not variables.get("board"):
             return super().configure_default_packages(variables, targets)
@@ -57,8 +57,8 @@ class AtmelsamPlatform(PlatformBase):
                 framework_package += "-" + build_core
 
             self.frameworks["arduino"]["package"] = framework_package
-            if not board.get("build.mcu", "").startswith("samd"):
-                self.packages["framework-arduino-sam"]["optional"] = True
+            """ if not board.get("build.mcu", "").startswith("samd"):
+                self.packages["framework-arduino-sam"]["optional"] = True """
             if framework_package in self.packages:
                 self.packages[framework_package]["optional"] = False
             self.packages["framework-cmsis"]["optional"] = False
