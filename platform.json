@@ -37,7 +37,7 @@
     "framework-arduino-samd-adafruit": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/adafruit/ArduinoCore-samd.git"
+      "version": "https://github.com/celubi/ArduinoCore-samd.git"
     },
     "framework-cmsis": {
       "type": "framework",
