@@ -29,7 +29,7 @@
     ],
     "mcu": "same51j19a",
     "system": "samd",
-    "usb_product": "Adafruit Feather M4 CAN",
+    "usb_product": "Spacemotionery SMT Test 00",
     "variant": "smt_test_00"
   },
   "debug": {
@@ -41,7 +41,7 @@
   "frameworks": [
     "arduino"
   ],
-  "name": "Adafruit Feather M4 CAN",
+  "name": "Spacemotionery SMT Test 00",
   "upload": {
     "disable_flushing": true,
     "maximum_ram_size": 196608,
