@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/celubi/platform-spacemotionery.git"
+    "url": "https://github.com/spacemotionery/platform-spacemotionery.git"
   },
   "version": "0.0.1",
   "frameworks": {

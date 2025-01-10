@@ -5,7 +5,7 @@ Developement platform for upcoming Spacemotionery's hardware products.
 
 ```ini
 [env:development]
-platform = https://github.com/celubi/platform-spacemotionery.git
+platform = https://github.com/spacemotionery/platform-spacemotionery.git
 board = ...
 ...
 ```
